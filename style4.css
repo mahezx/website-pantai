@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+/* hero background */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/night.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+/* logo */
+.logo{
+width: 40px;
+cursor: pointer;
+}
+
+/* navbar */
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+/*  ini list navigation bar */
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block ;
+    margin-left: 60px;    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 13px;
+}
+
+/* main text */
+.row{
+    display: flex;
+    height: 70%;
+    align-items: center;
+}
+
+.col{flex-basis: 55%;}
+
+h1{
+    color: #ffff;
+    font-size: 100px;
+}
+
+p{
+    color: #ffff;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+/* button lets explore */
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background-color: #ffff;
+    border: 0;
+    border-radius:20px ;
+    outline: none;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+/* kelompok card */
+.row2{
+    height: 10%;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+}
+
+/* card */
+.card{
+    width: 200px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 50px 70px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 30%;
+    margin: bottom 40px; ;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+/* css variasi pantai */
+
+.card1{background-image: url(img/PKyBim.jpg) ;}
+.card2{background-image: url(img/maldives.jpg) ;}
+.card3{background-image: url(img/sunset.jpg) ;}
+.card4{background-image: url(img/night.jpg) ;}
+
+.card:hover{
+    transform: translateY(-10px)
+}
